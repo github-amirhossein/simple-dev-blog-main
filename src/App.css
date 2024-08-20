@@ -1,0 +1,225 @@
+
+
+*{
+    color: aliceblue;
+}
+
+
+body{
+    margin: 0px;
+    width:100% ;
+    background-color: #000000;
+    
+    
+    
+  
+}
+
+.header{
+    width: 96%;
+    padding: 2%;
+    height: 60px;
+    box-shadow: 0px 1px 5px #c8c5c5 ;
+    position: relative;
+}
+
+.header-team{
+    width: 30%;
+    float: left;
+}
+
+.header-h1{
+    font-size: 30px;
+    margin-top: 10px;
+    color: yellow;
+    margin-left: 0px;
+   
+    
+}
+nav{
+    width: 50%;
+    height: 80%;
+    float: left;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+   
+   
+
+}
+nav ul{
+    border-radius: 40px;
+    border: 1px solid rgb(48, 1, 1);
+    box-shadow: 2px 2px 10px rgb(48, 1, 1);
+    list-style-type: none;
+    padding:2px 20px ;
+    margin: 10px ;
+    
+
+
+}
+nav ul li{
+    float: left;
+    margin: 0% 20px;
+}
+
+.join-team{
+    float: right;
+    width: 15%;
+    height: 50%;
+    padding: 20px 5px;
+    position: relative;
+}
+.namad{
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    float: right;
+    padding: 3px;
+
+}
+
+.namad img{
+    width: 100%;
+}
+.namad::after{
+position: absolute;
+content: "";
+display: inline-block;
+background-color: #ffffff;
+width: 20px;
+height: 10px;
+top: 28px;
+right: 30px;
+}
+
+
+
+
+.header-join button{
+    font-size: 12px;
+    width: 90px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    float: right;
+    margin: 0px 3px 0px 0px;
+    color: #000000;
+}
+.hide{
+    display: none;
+}
+
+@media only screen and (max-width:970px) {
+    .header-h1{
+        font-size: 20px ;
+        margin-top: 15px;
+    }
+    nav{
+        width: 45%;
+    }
+    nav ul li{
+       font-size: 12px;
+       margin: 5px 10px;
+    }
+    nav ul{
+        padding: 3px 10px;
+    }
+    .join-team{
+        width: 20%;
+    }
+}
+@media only screen and (max-width:650px) {
+    .header-h1{
+        font-size: 15px ;
+        margin-top: 15px;
+    }
+    .header-team{
+        width: 25%;
+        
+    }
+    nav{
+        width: 45%;
+    }
+    nav ul li{
+        font-size: 10px;
+        margin: 5px 5px;
+     }
+     .join-team{
+        width: 25%;
+    }
+
+    
+    .namad{
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    float: right;
+    padding: 0px;
+
+    }
+
+    .namad img{
+    width: 100%;
+    }
+    .namad::after{
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background-color: #ffffff;
+    width: 10px;
+    height: 5px;
+    top: 28px;
+    right: 25px;
+    }
+
+
+
+
+    .header-join button{
+    font-size: 12px;
+    width: 80px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    float: right;
+    margin: 0px 3px 0px 0px;
+    color: #000000;
+    }
+
+
+}
+@media only screen and (max-width:520px) {
+    .header-team{
+        display: none;
+    }
+    
+    .join-team{
+        width: 35%;
+    }
+    nav{
+        width: 10%;
+        height: 30px;
+        margin-top: 10px;
+    }
+    nav ul{
+        display: none !important;
+    }
+    .hide{
+        display: inline-block !important;
+       
+        
+        width: 30px;
+        height: 30px;
+    }
+    .hide button{
+       box-shadow: 1px 1px 1px #ffffff;
+        background: url(./img/list.png) center no-repeat;
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+        
+    }
+}
