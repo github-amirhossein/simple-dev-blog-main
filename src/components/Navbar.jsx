@@ -9,10 +9,10 @@ export default function Navbar() {
             </div>
            <nav>
             <ul >
-                <li><Link>About</Link></li>
-                <li><Link>Our team</Link></li>
-                <li><Link> Projects</Link></li>
-                <li><Link>contacts</Link></li>
+                <li><Link to="/">About</Link></li>
+                <li><Link to="">Our team</Link></li>
+                <li><Link to="/"> Projects</Link></li>
+                <li><Link to="/">contacts</Link></li>
                
             </ul>
             <div className="hide">
